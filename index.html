@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Engineering E-Learning Platform</title> 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+<body> 
+    <header>
+         <h1>Welcome to the Engineering E-Learning Platform</h1> 
+    </header>
+        <nav> 
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><button onclick="loadCourse('fullstackweb')">Full stack Web Development</button></li>
+               <li><button onclick="loadCourse('pythondevelopment')">Python developer</button></li>
+               <li><button onclick="loadCourse('dsa')">Data Structures and Algorithm</button></li>
+               <li><button onclick="loadCourse('AI')">Artificial Intelligence</button></li>
+               <li><button onclick="loadCourse('ML')">Machine Learning</button></li>
+               <li><button onclick="loadCourse('DL')">Deep Learning</button></li>
+               <li><button onclick="loadCourse('Iot')">Internet of Things</button></li>
+               <li><button onclick="loadCourse('cloudcomputing')">Cloud computing</button></li>
+               <li><button onclick="loadCourse('Azure')">Azure Cloud</button></li>
+               <li><button onclick="loadCourse('Datascience')">Data science</button></li>
+               <li><button onclick="loadCourse('Cybersecurity')">Cyber Security</button></li>
+               <li><button onclick="loadCourse('Devops')">DevOps</button></li>
+               <li><button onclick="loadCourse('Blockchain')">BlockChain development</button></li>
+               <li><button onclick="loadCourse('mobileapp')">Mobile App Development</button></li>
+               <li><button onclick="loadCourse('productmanagement')">Product Management</button></li>
+               <li><button onclick="loadCourse('digitalmarketing')">Digital Marketing</button></li>
+               <li><button onclick="loadCourse('placementdriveupdates')">Placement Related Updates</button></li>
+            </ul>
+        </nav> 
+    <main id="content"> 
+        <section id="homepage"> 
+            <h2>E-learning </h2> 
+        </section>
+        <h2>Introduction to this Page</h2>
+        <p>Unlock your potential with our comprehensive, free e-learning platform tailored specifically for engineering students. Our platform is designed to provide you with the knowledge and skills needed to excel in the ever-evolving field of engineering. We’ve curated the best YouTube playlists and resources to help you master various engineering disciplines from the comfort of your home.
+        <br>
+           <h3>Featured Courses:</h3>
+            Full Stack Web Development: Dive into the world of web development with our in-depth course that covers both front-end and back-end technologies. Learn HTML, CSS, JavaScript, and more through carefully selected YouTube playlists.
+           <br> 
+            Python Development: Master Python, one of the most versatile and powerful programming languages. Our Python development course will take you from basics to advanced concepts, ensuring you’re well-prepared for real-world applications.
+            <br>
+            Data Structures and Algorithms (DSA): Strengthen your problem-solving skills and learn to write efficient code with our comprehensive DSA course. Explore various data structures and algorithms through engaging videos and practical examples.Artificial Intelligence (AI): Delve into the fascinating world of AI and explore its numerous applications. Our AI course covers everything from machine learning fundamentals to advanced AI techniques.
+            <br>
+            Machine Learning (ML): Gain a solid understanding of machine learning algorithms and their applications. Our ML course features top-notch YouTube playlists to help you build a strong foundation in this cutting-edge field.
+            <br>
+            Deep Learning (DL): Explore the depths of neural networks and deep learning with our extensive DL course. Learn how to build and train deep learning models with the help of expertly curated video content.
+            <br>
+            Internet of Things (IoT): Discover the future of connectivity with our IoT course. Learn about sensors, microcontrollers, and how to create smart devices that communicate over the internet.
+            <br>
+            Cloud Computing: Understand the essentials of cloud computing and its significance in modern IT infrastructure. Our cloud computing course covers major cloud platforms and services.
+            <br>
+            Azure Cloud: Get hands-on with Microsoft Azure and learn to leverage its powerful cloud services. Our Azure Cloud course will guide you through practical projects and real-world scenarios.Data Science: Harness the power of data with our comprehensive data science course. Learn data analysis, visualization, and machine learning techniques to make data-driven decisions.
+            <br>
+            Why Choose Us?
+            Expert Curated Content: Our courses feature the best YouTube playlists curated by industry experts.
+            <br>
+            Flexible Learning: Study at your own pace, anytime, anywhere.
+            <br>
+            Interactive Learning: Engage with quizzes, assignments, and community discussions to reinforce your learning.
+            <br>
+            Free of Cost: All courses and resources are available for free, making quality education accessible to everyone.
+            <br>
+            Join us today and start your journey towards becoming a skilled and knowledgeable engineer!</p>
+        <p>Click on a course to view the resources.</p> 
+        <br>
+        <div id="random-courses"> 
+            <!-- Random course videos will be inserted here -->
+         </div> 
+        <div> 
+            <h2>Online Coding Platforms</h2>
+             <div id="coding-platforms"> 
+                <ul>
+                     <li><a href="https://leetcode.com/" target="_blank">LeetCode</a></li>
+                     <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></li>
+                      <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a></li>
+                       <li><a href="https://codesignal.com/" target="_blank">CodeSignal</a></li> 
+                       <li><a href="https://www.codewars.com/" target="_blank">Codewars</a></li> 
+                       <li><a href="https://www.codingame.com/" target="_blank">CodinGame</a></li> 
+                       <li><a href="https://www.hackerearth.com/" target="_blank">HackerEarth</a></li> 
+                       <li><a href="https://exercism.io/" target="_blank">Exercism</a></li> 
+                       <li><a href="https://www.topcoder.com/" target="_blank">TopCoder</a></li> 
+                       <li><a href="https://www.codechef.com/" target="_blank">CodeChef</a></li> 
+                       <li><a href="https://atcoder.jp/" target="_blank">AtCoder</a></li> 
+                    </ul> 
+                </div>
+                <h2>Online Compiling Platforms</h2> 
+                <div id="compiling-platforms"> 
+                    <ul> 
+                        <li><a href="https://repl.it/~" target="_blank">Repl.it (Multiple languages)</a></li> 
+                        <li><a href="https://jsfiddle.net/" target="_blank">JSFiddle (HTML, CSS, JavaScript)</a></li>
+                        <li><a href="https://www.jdoodle.com/" target="_blank">JDoodle (Various languages)</a></li>
+                        <li><a href="https://www.onlinegdb.com/" target="_blank">OnlineGDB (C, C++, Python, and more)</a></li>
+                        <li><a href="https://codepen.io/" target="_blank">CodePen (HTML, CSS, JavaScript)</a></li> 
+                        <li><a href="https://ideone.com/" target="_blank">Ideone (Various languages)</a></li> 
+                        <li><a href="https://www.tutorialspoint.com/compile_cpp_online.php" target="_blank">TutorialsPoint (Various languages)</a></li>
+                        <li><a href="https://paiza.io/en/projects/new" target="_blank">Paiza.IO (Various languages)</a></li>
+                     </ul> 
+                </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Software Engineering E-Learning Platform</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
